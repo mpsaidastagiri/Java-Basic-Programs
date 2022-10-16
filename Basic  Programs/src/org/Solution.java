@@ -7,7 +7,6 @@ public class Solution {
         String s="RB@@@aanngalore1221***";
         char [] characters = s.toCharArray();
         List<Character> list = new ArrayList<>();
-        System.out.println("Interview");
         for (char c:characters){
             if(Character.isAlphabetic(c) && list.contains(c)){
                 continue;
